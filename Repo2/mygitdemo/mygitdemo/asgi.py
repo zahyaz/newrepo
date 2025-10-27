@@ -7,9 +7,9 @@ For more information on this file, see
 https://docs.djangoproject.com/en/5.2/howto/deployment/asgi/
 """
 
-import os
+import os   # this lets you deal with the operating system
 
-from django.core.asgi import get_asgi_application
+from django.core.asgi import get_asgi_application 
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mygitdemo.settings')
 
